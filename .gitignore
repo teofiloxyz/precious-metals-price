@@ -1,2 +1,4 @@
+notebooks/.ipynb_checkpoints
+notebooks/.jupyter
 data/.raw_data.tar.xz
 .TODO.md
