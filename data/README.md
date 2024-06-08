@@ -5,15 +5,15 @@ The data for this project was searched and collected between 14th and 18th of Ma
 1. **Gold price**:
     - **Description**: Daily price at 10:30 (London time) of a troy ounce of gold since 1968.
     - **Source**: [DBnomics](https://db.nomics.world/LBMA/gold_D)
-    - **File**: `AU.csv`
+    - **File**: [](AU.csv)
 2. **Silver price**:
     - **Description**: Daily price at 12:00 (London time) of a troy ounce of silver since 1968.
     - **Source**: [DBnomics](https://db.nomics.world/LBMA/silver_D)
-    - **File**: `AG.csv`
+    - **File**: (AG.csv)
 3. **Gold futures**:
     - **Description**: Daily open, high, low, and close prices for gold futures since 2000.
     - **Source**: [Yahoo Finance](https://finance.yahoo.com/quote/GC%3DF/history) (using the API)
-    - **File**: `AU_FUTURES.csv`
+    - **File**: [AU_FUTURES.csv](AU_FUTURES.csv)
 4. **Silver futures**:
     - **Description**: Daily open, high, low, and close prices for silver futures since 2000.
     - **Source**: [Yahoo Finance](https://finance.yahoo.com/quote/SI%3DF/history) (using the API)
