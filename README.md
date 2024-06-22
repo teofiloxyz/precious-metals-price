@@ -20,24 +20,24 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 ### Table of contents
-- [Price of gold across time](### Price of gold across time (long-term analysis))
-- [Price of gold YTD](### Price of gold year-to-date (short-term analysis))
-- [Price of silver across time](### Price of silver across time (long-term analysis))
-- [Price of silver YTD](### Price of silver year-to-date (short-term analysis))
-- [Brief analysis of the US CPI](### Brief analysis of the US consumer price index (CPI)) 
-- [Price of gold adjusted for inflation](### Price of gold adjusted for inflation across time)
-- [Price of silver adjusted for inflation](### Price of silver adjusted for inflation across time)
-- [Analysis of correlations](### Analysis of correlations of gold, silver and other datasets)
-- [Comparison of gold and silver prices](### Comparison of gold and silver prices)
-- [Probabilistic forecasting of the gold price](### Probabilistic forecasting of the gold price using Monte Carlo method 🎲)
-- [Probabilistic forecasting of the silver price](### Probabilistic forecasting of the silver price using Monte Carlo method 🎲)
-- [Deterministic forecasting of the gold price](### Deterministic forecasting of the gold price using SARIMA method 🔮)
-- [Deterministic forecasting of the silver price](### Deterministic forecasting of the silver price using SARIMA method 🔮)
-- [Conclusions](### Conclusions)
+- [Price of gold across time](#AU price)
+- [Price of gold YTD](#AU price YTD)
+- [Price of silver across time](#AG price)
+- [Price of silver YTD](#AG price YTD)
+- [Brief analysis of the US CPI](#CPI) 
+- [Price of gold adjusted for inflation](#AU real price)
+- [Price of silver adjusted for inflation](#AG real price)
+- [Analysis of correlations](#AU AG correlations)
+- [Comparison of gold and silver prices](#AU AG comparison)
+- [Probabilistic forecasting of the gold price](#AU Monte Carlo)
+- [Probabilistic forecasting of the silver price](#AG Monte Carlo)
+- [Deterministic forecasting of the gold price](#AU SARIMA)
+- [Deterministic forecasting of the silver price](#AG SARIMA)
+- [Conclusions](#Conclusions)
 
 ---
 
-### Price of gold across time (long-term analysis)
+### Price of gold across time (long-term analysis) <a name = "AU price"></a>
 ![Gold price chart](/images/1.1_AU_price.png)
 *Line chart of the historical price of gold and its one-year moving average.*
 
@@ -112,11 +112,12 @@ This project delves into several aspects of the most traded precious metals pric
 - Based on monthly averages, it reveals favorable seasons during the first four months of the year and in September.
 - Some analysts suggest that gold experiences a strong seasonal phase starting in mid-November, extending until the second half of February.
 
+*For more details about this section, check the respective [Notebook](/notebooks/1.1_AU_price_analysis.ipynb).*
 <br> <!-- Line break -->
 
 
 
-### Price of gold year-to-date (short-term analysis)
+### Price of gold year-to-date (short-term analysis) <a name = "AU price YTD"></a>
 ![Gold price YTD chart](/images/1.1_AU_price_YTD.png)
 *Line chart of the historical price of gold year-to-date.*
 
@@ -141,7 +142,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Price of silver across time (long-term analysis)
+### Price of silver across time (long-term analysis) <a name = "AG price"></a>
 ![Silver price chart](/images/1.2_AG_price.png)
 *Line chart of the historical price of silver and its one-year moving average.*
 
@@ -215,9 +216,11 @@ This project delves into several aspects of the most traded precious metals pric
 - Seasonality has variations across different years.
 - Just like gold, based on monthly averages, there's favorable seasons during the first four months of the year, with an additional peak in September.
 
+*For more details about this section, check the respective [Notebook](/notebooks/1.2_AG_price_analysis.ipynb).*
 
 
-### Price of silver year-to-date (short-term analysis)
+
+### Price of silver year-to-date (short-term analysis) <a name = "AG price YTD"></a>
 ![Silver price YTD chart](/images/1.2_AG_price_YTD.png)
 *Line chart of the historical price of silver year-to-date.*
 
@@ -241,7 +244,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Brief analysis of the US consumer price index (CPI) 
+### Brief analysis of the US consumer price index (CPI) <a name = "CPI"></a>
 #### CPI long-term analysis
 ![US CPI chart](/images/2_US_CPI.png)
 *Line chart of the historical rate of the US consumer price index and 2% Fed target.*
@@ -274,7 +277,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Price of gold adjusted for inflation across time
+### Price of gold adjusted for inflation across time <a name = "AU real price"></a>
 ![Gold real price chart](/images/3.1_AU_real_price.png)
 *Line chart of the historical price of gold in 2023 dollars and its one-year moving average.*
 
@@ -328,7 +331,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Price of silver adjusted for inflation across time
+### Price of silver adjusted for inflation across time <a name = "AG real price"></a>
 ![Silver real price chart](/images/3.2_AG_real_price.png)
 *Line chart of the historical price of silver in 2023 dollars and its one-year moving average, with a logarithmic scale on the y-axis.*
 
@@ -378,7 +381,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Analysis of correlations of gold, silver and other datasets
+### Analysis of correlations of gold, silver and other datasets <a name = "AU AG correlations"></a>
 #### Correlation matrix (Pearson method)
 ![Gold silver correlations matrix chart](/images/4_AU_AG_correlations_matrix.png)
 *Heat map chart of the correlation matrix of all datasets, including gold and silver yearly volatilities.*
@@ -398,7 +401,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Comparison of gold and silver prices
+### Comparison of gold and silver prices <a name = "AU AG comparison"></a>
 #### Price
 ![Gold silver comparison price scatter chart](/images/5_AU_AG_comparison_price_scatter.png)
 *Scatter plot chart comparing the historical price of gold vs silver.*
@@ -465,7 +468,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Probabilistic forecasting of the gold price using Monte Carlo method 🎲
+### Probabilistic forecasting of the gold price using Monte Carlo method 🎲 <a name = "AU Monte Carlo"></a>
 #### One year forecast
 ![Gold Monte Carlo 1Y hist chart](/images/6.1_AU_Monte_Carlo_1Y_hist.png)
 *Histogram chart of gold price distribution for mid-May 2025 from Monte Carlo simulation.*
@@ -488,7 +491,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Probabilistic forecasting of the silver price using Monte Carlo method 🎲
+### Probabilistic forecasting of the silver price using Monte Carlo method 🎲 <a name = "AG Monte Carlo"></a>
 #### One year forecast
 ![Silver Monte Carlo 1Y hist chart](/images/6.2_AG_Monte_Carlo_1Y_hist.png)
 *Histogram chart of silver price distribution for mid-May 2025 from Monte Carlo simulation.*
@@ -511,7 +514,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Deterministic forecasting of the gold price using SARIMA method 🔮
+### Deterministic forecasting of the gold price using SARIMA method 🔮 <a name = "AU SARIMA"></a>
 ![Gold SARIMA chart](/images/7.1_AU_ARIMA.png)
 *Line chart of the historical price of gold since 2022, including a 6-month forecast and its confidence interval.*
 
@@ -521,7 +524,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 
 
-### Deterministic forecasting of the silver price using SARIMA method 🔮
+### Deterministic forecasting of the silver price using SARIMA method 🔮 <a name = "AG SARIMA"></a>
 ![Silver SARIMA chart](/images/7.2_AG_ARIMA.png)
 *Line chart of the historical price of silver since 2022, including a 6-month forecast and its confidence interval.*
 
