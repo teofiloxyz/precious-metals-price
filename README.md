@@ -90,7 +90,7 @@ For detailed information about the datasets, check it [here](/data/README.md).
 **Key takeaways:**
 - The largest five daily price changes occurred at the beginning of 1980.
 - The average yearly volatility is 1.1%.
-- The all-time low occurred in 1996, whereas the all-time high was observed a decade later, with yearly volatility almost tenfold higher.
+- The all-time low occurred in 1996, whereas the all-time high was observed in 1980, which was more than tenfold higher.
 - Volatility significantly increased following the collapse of the Bretton Woods system in 1973.
 - The market was highly volatile from the mid-1970s through the early 1980s, and during the dotcom bubble, the Great Recession, and the EU sovereign debt crisis.
 - The market remained very stable during the 1990s, and also during the current decade excluding the pandemic period.
