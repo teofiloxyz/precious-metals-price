@@ -1,7 +1,7 @@
 # Precious Metals Price 🪙
 
 ## Introduction
-**Precious Metals Price** is a financial data analysis showcase using Jupyter Notebook, focusing on the most popular precious metals. The recent surge in their prices has sparked curiosity, making this a compelling topic to study. This project aims to analyze and forecast gold and silver prices, incorporating several related datasets. For detailed information about the datasets source, check it [here](/data/README.md).
+**Precious Metals Price** is a financial data analysis showcase using Jupyter Notebook, focusing on analyzing and forecasting the prices of the most popular precious metals, gold and silver. The recent surge in their prices has sparked curiosity, making this a compelling topic to study.
 
 
 ## Tools Used
@@ -16,7 +16,8 @@
 
 
 ## Analysis Overview
-This project delves into several aspects of the most traded precious metals prices using a range of Python libraries, primarily Pandas, to offer comprehensive insights. It includes an in-depth examination of historical gold and silver prices, a brief analysis of the US consumer price index (CPI), and an exploration of correlations between these commodities and other related datasets. Furthermore, it provides a comparative analysis of gold and silver and forecasts their prices using two distinct methods.
+This project explores the prices of the most traded precious metals using Python libraries, mainly Pandas. It examines the historical gold and silver prices, analyzes briefly the US CPI, and investigates correlations with related datasets. Furthermore, it compares gold and silver and forecasts their prices using two methods.
+For detailed information about the datasets, check it [here](/data/README.md).
 
 
 ### Table of contents
@@ -35,7 +36,8 @@ This project delves into several aspects of the most traded precious metals pric
 - [Deterministic forecasting of the silver price](#AG_SARIMA)
 - [Conclusions](#Conclusions)
 
----
+<br> <!-- Line break -->
+
 
 ### Price of gold across time (long-term analysis) <a name = "AU_price"></a>
 ![Gold price chart](/images/1.1_AU_price.png)
@@ -113,8 +115,8 @@ This project delves into several aspects of the most traded precious metals pric
 - Some analysts suggest that gold experiences a strong seasonal phase starting in mid-November, extending until the second half of February.
 
 *For more details about this section, check the respective [Notebook](/notebooks/1.1_AU_price_analysis.ipynb).*
-<br> <!-- Line break -->
 
+<br> <!-- Line break -->
 
 
 ### Price of gold year-to-date (short-term analysis) <a name = "AU_price_YTD"></a>
@@ -140,6 +142,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/1.1_AU_price_analysis.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Price of silver across time (long-term analysis) <a name = "AG_price"></a>
@@ -218,6 +221,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/1.2_AG_price_analysis.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Price of silver year-to-date (short-term analysis) <a name = "AG_price_YTD"></a>
@@ -242,6 +246,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/1.2_AG_price_analysis.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Brief analysis of the US consumer price index (CPI) <a name = "CPI"></a>
@@ -275,6 +280,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/2_US_CPI_analysis.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Price of gold adjusted for inflation across time <a name = "AU_real_price"></a>
@@ -329,6 +335,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/3.1_AU_real_price_analysis.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Price of silver adjusted for inflation across time <a name = "AG_real_price"></a>
@@ -379,6 +386,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/3.2_AG_real_price_analysis.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Analysis of correlations of gold, silver and other datasets <a name = "AU_AG_correlations"></a>
@@ -399,6 +407,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/4_AU_AG_correlations.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Comparison of gold and silver prices <a name = "AU_AG_comparison"></a>
@@ -411,6 +420,7 @@ This project delves into several aspects of the most traded precious metals pric
 - In the 1970s, 1980s, and 2000s, there were periods when silver prices rose more sharply than gold prices.
 - Overall, gold prices seem to have risen more than silver, though this varies by decade.
 
+##### Price side-by-side
 ![Gold silver comparison price chart](/images/5_AU_AG_comparison_price.png)
 *Line chart comparing the historical price of gold and silver, with a logarithmic scale on both y-axis.*
 
@@ -466,6 +476,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/5_AU_AG_comparison.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Probabilistic forecasting of the gold price using Monte Carlo method 🎲 <a name = "AU_Monte_Carlo"></a>
@@ -489,6 +500,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/6.1_AU_Monte_Carlo.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Probabilistic forecasting of the silver price using Monte Carlo method 🎲 <a name = "AG_Monte_Carlo"></a>
@@ -512,6 +524,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/6.2_AG_Monte_Carlo.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Deterministic forecasting of the gold price using SARIMA method 🔮 <a name = "AU_SARIMA"></a>
@@ -522,6 +535,7 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/7.1_AU_ARIMA.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Deterministic forecasting of the silver price using SARIMA method 🔮 <a name = "AG_SARIMA"></a>
@@ -532,15 +546,16 @@ This project delves into several aspects of the most traded precious metals pric
 
 *For more details about this section, check the respective [Notebook](/notebooks/7.2_AG_ARIMA.ipynb).*
 
+<br> <!-- Line break -->
 
 
 ### Conclusions
 - Gold YoY real returns are much higher than anticipated.
 - Although silver YoY returns initially appeared higher than gold's, deeper analysis shows gold as the best-performing metal.
 - Both metals are highly correlated, as expected, with silver being twice as volatile.
-- ARIMA models use historical data to forecast future events, assuming past values impact future values. However, past performance is not a guaranteed indicator of future results, and these models cannot predict unpredictable events like market crashes or natural disasters.
-- Gold is not a perfect inflation hedge, as shown by its correlation with the CPI. The metal's real historical value has significant valleys, as well as notable volatility. However, if held for at least 30 years, gold can indeed serve as an inflation hedge or even provide real returns. This is not the case for silver, which is much less likely to be an inflation hedge.
-- According to the Lindy effect, gold (and to a lesser degree, silver) will continue to be what they have always been: safe havens.
+- Gold is an imperfect inflation hedge, evidenced by its low correlation with the CPI and its significant real value fluctuations. However, if held for at least 30 years, gold can hedge against inflation or even provide real returns. Silver is much less likely to serve as an inflation hedge.
+- ARIMA models use historical data to forecast future events, assuming past values impact future ones. However, past performance doesn't guarantee future results. These models can't predict unpredictable events like market crashes or natural disasters.
+- According to the Lindy effect, gold (and to a lesser degree, silver) will continue to be what they've always been: safe havens.
 
 
 ## Disclaimer
