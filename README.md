@@ -486,7 +486,7 @@ For detailed information about the datasets, check it [here](/data/README.md).
 
 **Key takeaways:**
 - The probability of gold exceeding its all-time high by mid-May of 2025 is about 64%.
-- The likelihood of surpassing \$3,000 by mid-May of 2025 is approximately 22%.
+- The likelihood of surpassing \$3,000 by mid-May of 2025 is approximately 21%.
 - The chance of falling below \$2,000 by mid-May of 2025 is nearly 10%.
 
 #### Ten years forecast
@@ -494,8 +494,8 @@ For detailed information about the datasets, check it [here](/data/README.md).
 *Histogram chart of gold price distribution for mid-May 2034 from Monte Carlo simulation.*
 
 **Key takeaways:**
-- The probability of gold exceeding its all-time high by mid-May of 2034 is about 89%.
-- The likelihood of surpassing \$5,000 by mid-May of 2034 is approximately 51%.
+- The probability of gold exceeding its all-time high by mid-May of 2034 is about 88%.
+- The likelihood of surpassing \$5,000 by mid-May of 2034 is approximately 50%.
 - The chance of falling below \$2,000 by mid-May of 2034 is nearly 7%.
 
 *For more details about this section, check the respective [Notebook](/notebooks/6.1_AU_Monte_Carlo.ipynb).*
@@ -519,7 +519,7 @@ For detailed information about the datasets, check it [here](/data/README.md).
 
 **Key takeaways:**
 - The probability of silver exceeding its all-time high by mid-May of 2034 is about 48%.
-- The likelihood of surpassing \$100 by mid-May of 2034 is approximately 26%.
+- The likelihood of surpassing \$100 by mid-May of 2034 is approximately 25%.
 - The chance of falling below \$20 by mid-May of 2034 is nearly 23%.
 
 *For more details about this section, check the respective [Notebook](/notebooks/6.2_AG_Monte_Carlo.ipynb).*
