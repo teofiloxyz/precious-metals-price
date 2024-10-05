@@ -550,9 +550,10 @@ For detailed information about the datasets, check it [here](/data/README.md).
 
 
 ### Conclusions
-- Gold YoY real returns are much higher than anticipated.
-- Although silver YoY returns initially appeared higher than gold's, deeper analysis shows gold as the best-performing metal.
-- Both metals are highly correlated, as expected, with silver being twice as volatile.
+- Gold and silver prices have shown a robust correlation, following similar trends over time. Both experienced significant surges after the collapse of the Bretton Woods system, with peaks in 1980 and 2011.
+- Their volatilities are also strongly correlated, with silver being roughly twice as volatile as gold. Both metals had major spikes in volatility during key economic events, such as the mid-1970s to early 1980s and the Great Recession.
+- While silver initially showed higher returns, a deeper analysis confirms gold as the better-performing metal.
+- Gold's YoY real returns surpassed the expectations.
 - Gold is an imperfect inflation hedge, evidenced by its low correlation with the CPI and its significant real value fluctuations. However, if held for at least 30 years, gold can hedge against inflation or even provide real returns. Silver is much less likely to serve as an inflation hedge.
 - ARIMA models use historical data to forecast future events, assuming past values impact future ones. However, past performance doesn't guarantee future results. These models can't predict unpredictable events like market crashes or natural disasters.
 - According to the Lindy effect, gold (and to a lesser degree, silver) will continue to be what they've always been: safe havens.
